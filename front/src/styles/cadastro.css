@@ -1,0 +1,61 @@
+/* src/styles/cadastroUsuario.css */
+
+#cadastroContainer {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+#cadastroContainer h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#cadastroContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+#cadastroContainer label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#cadastroContainer input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#cadastroContainer button {
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: rgb(135, 134, 134);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cadastroContainer button:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+#cadastroContainer p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: red;
+    text-align: center;
+}
+
+#cadastroContainer p.success {
+    color: green;
+}

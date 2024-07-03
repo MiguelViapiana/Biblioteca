@@ -1,0 +1,25 @@
+/* src/styles/home.css */
+
+#home {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#home h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#home p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+#homeContent {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #666;
+}

@@ -1,0 +1,61 @@
+/* src/styles/cadastroLivro.css */
+
+#cadastroLivroContainer {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+#cadastroLivroContainer h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#cadastroLivroContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+#cadastroLivroContainer label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#cadastroLivroContainer input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#cadastroLivroContainer button {
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: rgb(135, 134, 134);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cadastroLivroContainer button:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+#cadastroLivroContainer p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: red;
+    text-align: center;
+}
+
+#cadastroLivroContainer p.success {
+    color: green;
+}
